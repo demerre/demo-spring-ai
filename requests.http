@@ -1,0 +1,43 @@
+### Basic Requests
+# Retrieves a basic data
+GET http://localhost:8080/basic
+
+### User Request
+# Returns data based on user request
+GET http://localhost:8080/user
+
+### Async Request (Streaming)
+# Streams user data asynchronously
+GET http://localhost:8080/stream-user
+
+### System & Topic-Based Requests
+# Retrieves a new system-generated post for a given topic
+GET http://localhost:8080/posts/new?topic=airtag
+
+### Structured Data Requests
+# Retrieves book-related data in a structured format
+GET http://localhost:8080/books/structured
+
+### Tools & Utility Requests
+# Retrieve data using the provided tools
+GET http://localhost:8080/tools
+
+### "Dumb" Chat Requests (No Memory)
+# Simple user message with no memory retention
+GET http://localhost:8080/dumb-chat?message=My name is Rober
+
+### "Dumb" Chat Requests 2 (No Memory)
+# No memory retention, does not recall previous interactions
+GET http://localhost:8080/dumb-chat?message=what's my name?
+
+### Memory-Based Chat Requests
+# Stores user information in memory
+GET http://localhost:8080/chat?message=My name is Rober
+
+### Memory-Based Chat Requests 2
+# Recalls previous user interactions
+GET http://localhost:8080/chat?message=what's my name?
+
+### Image Processing Requests
+# Extracts text from an image
+GET http://localhost:8080/image-to-text
