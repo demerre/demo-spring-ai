@@ -1,0 +1,7 @@
+### Memory-Based Chat Requests
+# Stores user information in memory
+GET http://localhost:8080/chat?message=My name is Rober
+
+### Memory-Based Chat Requests 2
+# Recalls previous user interactions
+GET http://localhost:8080/chat?message=what's my name?

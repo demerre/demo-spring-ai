@@ -1,0 +1,3 @@
+### System & Topic-Based Requests
+# Retrieves a new system-generated post for a given topic
+GET http://localhost:8080/posts/new?topic=airtag

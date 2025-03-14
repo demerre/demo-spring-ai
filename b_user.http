@@ -1,0 +1,3 @@
+### User Request
+# Returns data based on user request
+GET http://localhost:8080/user

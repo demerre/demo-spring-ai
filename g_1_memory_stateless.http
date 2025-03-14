@@ -1,0 +1,7 @@
+### "Dumb" Chat Requests (No Memory)
+# Simple user message with no memory retention
+GET http://localhost:8080/dumb-chat?message=My name is Rober
+
+### "Dumb" Chat Requests 2 (No Memory)
+# No memory retention, does not recall previous interactions
+GET http://localhost:8080/dumb-chat?message=what's my name?

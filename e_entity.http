@@ -1,0 +1,3 @@
+### Structured Data Requests
+# Retrieves book-related data in a structured format
+GET http://localhost:8080/books/structured

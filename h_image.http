@@ -1,0 +1,3 @@
+### Image Processing Requests
+# Extracts text from an image
+GET http://localhost:8080/image-to-text

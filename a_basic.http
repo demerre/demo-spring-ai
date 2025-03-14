@@ -1,0 +1,3 @@
+### Basic Requests
+# Retrieves a basic data
+GET http://localhost:8080/basic
